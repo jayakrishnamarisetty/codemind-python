@@ -1,4 +1,3 @@
-from math import pow
-p,r,t=map(int,input().split())
-c=p*pow((1+(r/100)),t)
-print("%.2f"%c)
+a,b,c=map(int,input().split())
+x=a*((1+(b/100))**c)
+print(format(x,".2f"))
